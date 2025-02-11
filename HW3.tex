@@ -97,13 +97,15 @@ Blake made.\\
 to this \texttt{.Rnw} file.\\
 \textbf{Hint:} You may find the \verb|%in%| operator and the \verb|setdiff()| function to be helpful.\\
 
-\textbf{Solution:} 
+\textbf{Solution:}
+This code effectively solves the problem at hand because it creates a list of the products of all unique prime numbers that are less than 100, and then compares each item in the given list with the created list. When it finds the item in the given list that is not in the created list, it replaces the given value with the created value. This ensures that any objects in the given list that do not satisfy the conditions are removed and replaced (in this case there is only one in the given list, however this algorithm could be applied to a different list with multiple "wrong" values).
 % Write your answer and explanations here.
 
 \begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 \hlcom{# Copy your solution code here.}
+
 \hlcom{#original list}
 \hldef{og.list} \hlkwb{<-} \hlkwd{c}\hldef{(}\hlnum{6}\hldef{,}\hlnum{10}\hldef{,}\hlnum{14}\hldef{,}\hlnum{15}\hldef{,}\hlnum{21}\hldef{,}\hlnum{22}\hldef{,}\hlnum{26}\hldef{,}\hlnum{33}\hldef{,}\hlnum{34}\hldef{,}\hlnum{35}\hldef{,}\hlnum{38}\hldef{,}\hlnum{39}\hldef{,}\hlnum{46}\hldef{,}\hlnum{51}\hldef{,}\hlnum{55}\hldef{,}\hlnum{57}\hldef{,}\hlnum{58}\hldef{,}\hlnum{62}\hldef{,}\hlnum{65}\hldef{,}\hlnum{69}\hldef{,}\hlnum{75}\hldef{,}\hlnum{77}\hldef{,}\hlnum{82}\hldef{,}\hlnum{85}\hldef{,}\hlnum{86}\hldef{,}\hlnum{87}\hldef{,}\hlnum{91}\hldef{,}\hlnum{93}\hldef{,}\hlnum{94}\hldef{,}\hlnum{95}\hldef{)}
 

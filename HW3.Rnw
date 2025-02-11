@@ -47,11 +47,13 @@ Blake made.\\
 to this \texttt{.Rnw} file.\\
 \textbf{Hint:} You may find the \verb|%in%| operator and the \verb|setdiff()| function to be helpful.\\
 
-\textbf{Solution:} 
+\textbf{Solution:}
+This code effectively solves the problem at hand because it creates a list of the products of all unique prime numbers that are less than 100, and then compares each item in the given list with the created list. When it finds the item in the given list that is not in the created list, it replaces the given value with the created value. This ensures that any objects in the given list that do not satisfy the conditions are removed and replaced (in this case there is only one in the given list, however this algorithm could be applied to a different list with multiple "wrong" values).
 % Write your answer and explanations here.
 
 <<size="scriptsize", warning=F, message=F>>=
 # Copy your solution code here.
+
 #original list
 og.list <- c(6,10,14,15,21,22,26,33,34,35,38,39,46,51,55,57,58,62,65,69,75,77,82,85,86,87,91,93,94,95)
 
